@@ -32,6 +32,15 @@ fieldset {
   padding: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  inline-size: 1px;
+  block-size: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
 ul,
 ol {
   list-style: none;
@@ -204,15 +213,7 @@ ol {
   line-height: 16.2px;
   text-align: left;
 }
-.visually-hidden {
-  position: absolute;
-  inline-size: 1px;
-  block-size: 1px;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-  white-space: nowrap;
-}
+
 fieldset {
   border: none;
 }
