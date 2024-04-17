@@ -32,6 +32,11 @@ fieldset {
   padding: 0;
 }
 
+ul,
+ol {
+  list-style: none;
+}
+
 .visually-hidden {
   position: absolute;
   inline-size: 1px;
@@ -41,11 +46,6 @@ fieldset {
   clip-path: inset(50%);
   white-space: nowrap;
 }
-ul,
-ol {
-  list-style: none;
-}
-
 .content {
   margin: 0 auto;
   display: flex;
